@@ -1,14 +1,15 @@
-	#include "Player.hpp"
-	#include "Duke.hpp"
-	#include "Assassin.hpp"
-	#include "Ambassador.hpp"
-	#include "Captain.hpp"
-	#include "Contessa.hpp"
-	#include "Game.hpp"
-	#include <iostream>
-	#include <stdexcept>
-	#include <vector>
-	#include "doctest.h"
+#include "Assassin.hpp"	
+#include "Ambassador.hpp"
+#include "Captain.hpp"
+#include "Contessa.hpp"
+#include "Duke.hpp"
+#include "Game.hpp"
+#include "Player.hpp"
+	
+#include <iostream>
+#include <stdexcept>
+#include <vector>
+#include "doctest.h"
 	
 	
 	using namespace std;
