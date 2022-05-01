@@ -48,13 +48,13 @@
     //CHECK THE FUNCTIONS:
 
 	//game_1 
-	CHECK_THROWS(game_1.turn());
-	CHECK_THROWS(game_1.winner());
+		CHECK_THROWS(game_1.turn());
+		CHECK_THROWS(game_1.winner());
 	
 	
 	//ambassador
 		CHECK_THROWS(ambassador.transfer(duke,captain));
-        CHECK_THROWS(ambassador.income());
+       		CHECK_THROWS(ambassador.income());
 		CHECK_THROWS(ambassador.foreign_aid());
 		
 
@@ -62,7 +62,7 @@
 	//assassin
 	    
 		CHECK_THROWS(assassin.income());
-        CHECK_THROWS(assassin.foreign_aid());
+        	CHECK_THROWS(assassin.foreign_aid());
 		CHECK_THROWS(assassin.coup(duke));
 		
 	
@@ -73,16 +73,16 @@
 		CHECK_THROWS(captain.foreign_aid());
 		CHECK_THROWS(captain.coup(duke));
 		CHECK_THROWS(captain.steal(contessa));
-        CHECK_THROWS(captain.block(captain));
+      		CHECK_THROWS(captain.block(captain));
 			
 
 	//contessa
 	    
 		CHECK_THROWS(contessa.income());
 		CHECK_THROWS(contessa.foreign_aid());
-    	CHECK_THROWS(contessa.coup(duke));
+    		CHECK_THROWS(contessa.coup(duke));
 
-    // duke
+       // duke
 	
 		CHECK_THROWS(duke.income());
 		CHECK_THROWS(duke.foreign_aid());
