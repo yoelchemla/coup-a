@@ -18,13 +18,6 @@
 	  
 	TEST_CASE("check the functions"){
 	
-	    Game game_1{};
-	
-		Ambassador ambassador{game_1, "yoel"};
-       		Assassin assassin{game_1, "daniel"};	 
-		Captain captain{game_1, "hen"}; 
-		Contessa contessa{game_1, "noa"};
-	    	Duke duke{game_1, "linoy"};   
 	
 	// a good input
     Game game_check{};
@@ -45,6 +38,13 @@
     }
 //////////
 
+	    Game game_1{};
+	
+		Ambassador ambassador{game_1, "yoel"};
+       		Assassin assassin{game_1, "daniel"};	 
+		Captain captain{game_1, "hen"}; 
+		Contessa contessa{game_1, "noa"};
+	    	Duke duke{game_1, "linoy"};   
 
     //CHECK THE FUNCTIONS:
 
